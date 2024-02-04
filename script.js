@@ -79,16 +79,16 @@ function changeBackgroundAndText() {
 
     switch (noClickCount) {
         case 1:
-            backgroundUrl = 'https://static.wikia.nocookie.net/shrek/images/8/84/Cute_Eyes.jpeg/revision/latest?cb=20180904165231';
+            backgroundUrl = 'https://i.ytimg.com/vi/7fAmweEiNBk/maxresdefault.jpg';
             textContent = 'Đừng :< Tớ muốn tìm hiểu cậu mà';
             break;
         case 2:
             backgroundUrl = 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/07/Despicable-Me-Minions-Begging.jpg';
-            textContent = 'Xin lỗi vì đợt trước nhắn tin mà tự nhiên tớ lại rụt. Thật sự lúc đấy tớ bị nghĩ nhiều (ngu), sợ rằng mình làm phiền cậu, mong được lượng thứ';
+            textContent = 'Xin lỗi vì đợt trước nhắn tin mà tự nhiên tớ lại rụt. Thật sự lúc đấy tớ bị nghĩ nhiều (ngu), sợ rằng mình làm phiền cậu, mong được lượng thứ.';
             break;
         case 3:
             backgroundUrl = 'https://i.ytimg.com/vi/i7-W-ihg3fc/maxresdefault.jpg';
-            textContent = 'Không biết là cậu đã biết hôm trước tớ bốc phải lá bài gì chưa, nếu biết rồi vẫn mong cậu cho tớ hẹn cậu một buổi đi chơi thật sự để nói trực tiếp';
+            textContent = 'Không biết là cậu đã biết hôm trước tớ bốc phải lá bài gì chưa, nếu biết rồi vẫn mong cậu cho tớ hẹn cậu một buổi đi chơi để được nói trực tiếp. Pweaseee';
             yesButton.style.backgroundColor = '#4CAF50'; // Set Yes button color to green
             resetYesButtonPosition(); // Reset Yes button position
             break;
@@ -100,7 +100,7 @@ function changeBackgroundAndText() {
 
 function clickBtnYes() {
     let backgroundUrl = 'https://i.ytimg.com/vi/gPteA8cr6VU/maxresdefault.jpg', 
-        textContent = 'Cảm ơn quý khách đã tham gia khảo sát. Btw, tài khoản Spotify của quý khách được gia hạn rồi nhé ^^ Và xin phép, được làm nhà tài trợ cho tháng này';
+        textContent = 'Cảm ơn quý khách đã tham gia khảo sát. Btw, tài khoản Spotify của quý khách được gia hạn rồi nhé ^^ Và xin phép được làm nhà tài trợ cho tháng này';
 
     document.body.style.backgroundImage = `url('${backgroundUrl}')`;
     showTextOverlay(textContent);
